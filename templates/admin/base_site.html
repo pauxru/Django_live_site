@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Royal King Investment site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Royal King Investment Administration</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
